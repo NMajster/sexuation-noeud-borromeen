@@ -1,0 +1,10 @@
+Geste f | [('T', 'E'), ('P', 'N')] | marque conservée q
+Geste q | [('T', 'P'), ('E', 'N')] | marque conservée f
+Geste f+q | [('T', 'N'), ('P', 'E')] | marque conservée v
+Classique | groupes vrais : ['PE', 'TN'] | f et q complémentent, f+q conserve la valeur.
+Fourche, domaine fixe {a,b} | la racine force P ; aucun témoin de E à la racine.
+Chaîne à deux mondes, singleton | la racine force N et ne force pas T.
+Modèle classique à un monde, prédicat toujours vrai | P est faux, indépendamment du cardinal du domaine non vide.
+H3 | P=E pour les 7 images non vides du prédicat ; h ou non-h vaut h, distinct du sommet.
+Contre-exemple à « aucune logique » | une valeur à la fois vraie et fausse et sa négation sont désignées.
+Le modèle à domaine infini est démontré au n° 9 du rapport. Aucun segment fini ne le remplace.

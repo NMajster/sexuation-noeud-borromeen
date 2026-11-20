@@ -1,0 +1,56 @@
+Temoin : Boole a deux valeurs {0,1}, les trois negations egales a 1-x
+   mondes : ['EP', 'TN']
+
+Les 27 ecritures, a trois valeurs. Colonnes : cote homme (T et E ensemble), cote femme (P et N ensemble),
+couples d'Aristote (T et N ; E et P), contradictoires (T et P ; E et N). o = possible, . = impossible
+barre fonction barre quanteur dualite  | TE PN | TN EP | TP EN | mondes
+1-x            1-x            1-x      | . .  | o o  | . .  | - EP TN
+1-x            1-x            -1-x     | o o  | o o  | . .  | - EP P PN T TE TN
+1-x            1-x            -x       | . o  | o o  | . .  | - EP N P PN T TN
+1-x            -1-x           1-x      | . .  | . .  | o o  | - EN TP
+1-x            -1-x           -1-x     | o o  | o o  | o o  | - EN TEPN TP
+1-x            -1-x           -x       | . .  | . .  | o o  | - EN TP
+1-x            -x             1-x      | . o  | . .  | . .  | E PN T
+1-x            -x             -1-x     | o o  | o .  | . .  | - E N PN T TE TN
+1-x            -x             -x       | . o  | o .  | . .  | - E N P PN T TN
+-1-x           1-x            1-x      | o o  | o o  | . .  | E EP N P PN TE TN
+-1-x           1-x            -1-x     | o .  | . .  | . .  | N P TE
+-1-x           1-x            -x       | o o  | o o  | . .  | EP N P PN T TE TN
+-1-x           -1-x           1-x      | o o  | o o  | o o  | - EN TEPN TP
+-1-x           -1-x           -1-x     | o o  | o o  | o o  | - TEPN
+-1-x           -1-x           -x       | o o  | o o  | o o  | - EN TEPN TP
+-1-x           -x             1-x      | o .  | . o  | . .  | - E EP N P T TE
+-1-x           -x             -1-x     | o .  | . .  | . .  | N P TE
+-1-x           -x             -x       | o .  | o .  | . .  | - E N P T TE TN
+-x             1-x            1-x      | o o  | o o  | . .  | E EP P PN T TE TN
+-x             1-x            -1-x     | o o  | . o  | . .  | - E EP P PN T TE
+-x             1-x            -x       | . o  | . .  | . .  | E PN T
+-x             -1-x           1-x      | o o  | o o  | o o  | - EN TEPN TP
+-x             -1-x           -1-x     | o o  | o o  | o o  | - EN TEPN TP
+-x             -1-x           -x       | . .  | . .  | o o  | - EN TP
+-x             -x             1-x      | o .  | o o  | . .  | - E EP N T TE TN
+-x             -x             -1-x     | o o  | o o  | . .  | - E EP N PN TE TN
+-x             -x             -x       | . .  | o o  | . .  | - EP TN
+
+Ecritures ou : les deux cotes tiennent, une formule et sa barree ne tiennent jamais ensemble,
+et le pas-tout peut tenir sans l'exception : 7 sur 27
+   barre fonction 1-x | barre quanteur 1-x | dualite -1-x | mondes - EP P PN T TE TN
+   barre fonction 1-x | barre quanteur -x | dualite -1-x | mondes - E N PN T TE TN
+   barre fonction -1-x | barre quanteur 1-x | dualite 1-x | mondes E EP N P PN TE TN
+   barre fonction -1-x | barre quanteur 1-x | dualite -x | mondes EP N P PN T TE TN
+   barre fonction -x | barre quanteur 1-x | dualite 1-x | mondes E EP P PN T TE TN
+   barre fonction -x | barre quanteur 1-x | dualite -1-x | mondes - E EP P PN T TE
+   barre fonction -x | barre quanteur -x | dualite -1-x | mondes - E EP N PN TE TN
+
+Meme recherche sans exiger le cote homme (T et E ensemble) :
+   barre fonction 1-x | barre quanteur 1-x | dualite -1-x | cote homme : oui | mondes - EP P PN T TE TN
+   barre fonction 1-x | barre quanteur 1-x | dualite -x | cote homme : non | mondes - EP N P PN T TN
+   barre fonction 1-x | barre quanteur -x | dualite 1-x | cote homme : non | mondes E PN T
+   barre fonction 1-x | barre quanteur -x | dualite -1-x | cote homme : oui | mondes - E N PN T TE TN
+   barre fonction 1-x | barre quanteur -x | dualite -x | cote homme : non | mondes - E N P PN T TN
+   barre fonction -1-x | barre quanteur 1-x | dualite 1-x | cote homme : oui | mondes E EP N P PN TE TN
+   barre fonction -1-x | barre quanteur 1-x | dualite -x | cote homme : oui | mondes EP N P PN T TE TN
+   barre fonction -x | barre quanteur 1-x | dualite 1-x | cote homme : oui | mondes E EP P PN T TE TN
+   barre fonction -x | barre quanteur 1-x | dualite -1-x | cote homme : oui | mondes - E EP P PN T TE
+   barre fonction -x | barre quanteur 1-x | dualite -x | cote homme : non | mondes E PN T
+   barre fonction -x | barre quanteur -x | dualite -1-x | cote homme : oui | mondes - E EP N PN TE TN

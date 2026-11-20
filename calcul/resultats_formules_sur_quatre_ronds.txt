@@ -1,0 +1,18 @@
+transformations du noeud (permutations des ronds) : 8
+placements : 24 ; classes a transformation pres : 3
+  classe de 8 placements | le couple (Sg, S) porte tous et pas-tout | le couple (I, R) porte exception et pas d'exception | les couples du noeud sont les lignes du tableau
+  classe de 8 placements | le couple (Sg, S) porte tous et exception | le couple (I, R) porte pas-tout et pas d'exception | les couples du noeud sont les cotes du tableau
+  classe de 8 placements | le couple (Sg, S) porte tous et pas d'exception | le couple (I, R) porte pas-tout et exception | les couples du noeud sont les diagonales du tableau
+
+Rappel pour trois ronds : 24 placements sur les quatre quadrants, 6 classes.
+A quatre ronds : 3 classes, une par rangement des formules en couples (lignes, cotes, diagonales).
+
+Si les couples du noeud sont les cotes du tableau, les 8 placements de la classe, avec les noms des ronds :
+   Sg : tous | S : exception | I : pas-tout | R : pas d'exception
+   Sg : tous | S : exception | I : pas d'exception | R : pas-tout
+   Sg : pas-tout | S : pas d'exception | I : tous | R : exception
+   Sg : pas-tout | S : pas d'exception | I : exception | R : tous
+   Sg : exception | S : tous | I : pas-tout | R : pas d'exception
+   Sg : exception | S : tous | I : pas d'exception | R : pas-tout
+   Sg : pas d'exception | S : pas-tout | I : tous | R : exception
+   Sg : pas d'exception | S : pas-tout | I : exception | R : tous

@@ -1,0 +1,20 @@
+Demi-tours : action libre et transitive ; critère de Berglund : 48 signatures, avec 0 ou 2 inversions à couleurs fixes.
+Espèce 1 | 24 bijections, 6 classes de 4 ; 24 tableaux réalisables en choisissant le côté de vue et la rotation.
+Espèce -1 | 24 bijections, 6 classes de 4 ; 24 tableaux réalisables en choisissant le côté de vue et la rotation.
+Carré orienté | placement principal : écran (-x,-z), œil en -y ; autre : (-y,-z), œil en +x.
+Direction intérieure (1,1,10) | R/S, R/I, S/I : [4, 0, 4] soit 8 croisements.
+Vue (1, 1, 1) | angles courts R,S,I,R : (-60, -60, -60) | intersections de la projection orthographique 12
+  Tresse [-1, 2, -1, 2, -1, 2] | tours dirigés R,S,I (1, 1, 1)
+Vue (1, 1, -1) | angles courts R,S,I,R : (60, 60, 60) | intersections de la projection orthographique 12
+Vue (1, -1, 1) | angles courts R,S,I,R : (60, 60, 60) | intersections de la projection orthographique 12
+Vue (1, -1, -1) | angles courts R,S,I,R : (-60, -60, -60) | intersections de la projection orthographique 12
+  Tresse [-1, 2, -1, 2, -1, 2] | tours dirigés R,S,I (-1, 1, -1)
+Vue (-1, 1, 1) | angles courts R,S,I,R : (60, 60, 60) | intersections de la projection orthographique 12
+Vue (-1, 1, -1) | angles courts R,S,I,R : (-60, -60, -60) | intersections de la projection orthographique 12
+  Tresse [-1, 2, -1, 2, -1, 2] | tours dirigés R,S,I (-1, -1, 1)
+Vue (-1, -1, 1) | angles courts R,S,I,R : (-60, -60, -60) | intersections de la projection orthographique 12
+  Tresse [-1, 2, -1, 2, -1, 2] | tours dirigés R,S,I (1, -1, -1)
+Vue (-1, -1, -1) | angles courts R,S,I,R : (60, 60, 60) | intersections de la projection orthographique 12
+Les huit choix de flèches donnent chacun un axe non orienté où les trois sens concordent.
+Pente admissible R/S pour la tresse (+,+,+) : 4.408937341
+Contre-exemple au caractère intrinsèque du carré : trois ellipses dans des coquilles disjointes [(1, 2), (3, 6), (9, 18)]

@@ -1,0 +1,27 @@
+1. Chaque rond fait-il un tour, et un seul, autour de chaque axe, sans revenir en arriere ?
+   axe (+, +, +) | R: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; S: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; I: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69
+   axe (+, −, −) | R: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; S: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; I: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69
+   axe (−, +, −) | R: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; S: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; I: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69
+   axe (−, −, +) | R: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; S: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; I: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69
+   axe (−, −, −) | R: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; S: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; I: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69
+   axe (−, +, +) | R: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; S: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; I: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69
+   axe (+, −, +) | R: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; S: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; I: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69
+   axe (+, +, −) | R: -1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; S: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69 ; I: +1 tour, monotone=True, distance a l'axe entre 0.68 et 1.69
+
+2. Sens de chaque rond autour de chaque axe, les ronds etant orientes pour tourner tous les trois dans le meme sens autour de (+,+,+)
+   axe (+, +, +) | R +  S +  I + | nombre de ronds dans le sens de depart : 3
+   axe (+, −, −) | R -  S +  I - | nombre de ronds dans le sens de depart : 1
+   axe (−, +, −) | R -  S -  I + | nombre de ronds dans le sens de depart : 1
+   axe (−, −, +) | R +  S -  I - | nombre de ronds dans le sens de depart : 1
+   axe (−, −, −) | R -  S -  I - | nombre de ronds dans le sens de depart : 0
+   axe (−, +, +) | R +  S -  I + | nombre de ronds dans le sens de depart : 2
+   axe (+, −, +) | R +  S +  I - | nombre de ronds dans le sens de depart : 2
+   axe (+, +, −) | R -  S +  I + | nombre de ronds dans le sens de depart : 2
+
+3. Lecture sur le placement propose (tous au sommet (+,+,+))
+   tous             | Reel avance | Symbolique avance | Imaginaire avance
+   pas-toute        | Reel avance | Symbolique recule | Imaginaire recule
+   exception        | Reel recule | Symbolique avance | Imaginaire recule
+   pas d'exception  | Reel recule | Symbolique recule | Imaginaire avance
+
+ecrit exploration_noeud_deroule_autour_d_un_axe.png

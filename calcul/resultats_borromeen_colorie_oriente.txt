@@ -1,0 +1,18 @@
+ronds : 3 | volume : 7.327725 | [t12067(0,0)(0,0)(0,0), 6^3_2(0,0)(0,0)(0,0)]
+groupe de symetries : Z/2 x octahedral group | ordre 48 | declare complet : True
+isometries distinctes (permutation, sens des ronds, espace) : 48
+   ('couleurs fixes', 'conserve') : nombre de ronds dont l'orientation est inversee : [0, 2]
+   ('couleurs fixes', 'miroir') : nombre de ronds dont l'orientation est inversee : [0, 2]
+   ('echange de deux couleurs', 'conserve') : nombre de ronds dont l'orientation est inversee : [1, 3]
+   ('echange de deux couleurs', 'miroir') : nombre de ronds dont l'orientation est inversee : [1, 3]
+   ('permutation circulaire', 'conserve') : nombre de ronds dont l'orientation est inversee : [0, 2]
+   ('permutation circulaire', 'miroir') : nombre de ronds dont l'orientation est inversee : [0, 2]
+couleurs fixes, detail :
+   sens (-1, -1, 1) | espace conserve
+   sens (-1, -1, 1) | espace miroir
+   sens (-1, 1, -1) | espace conserve
+   sens (-1, 1, -1) | espace miroir
+   sens (1, -1, -1) | espace conserve
+   sens (1, -1, -1) | espace miroir
+   sens (1, 1, 1) | espace conserve
+   sens (1, 1, 1) | espace miroir
